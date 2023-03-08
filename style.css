@@ -1,0 +1,338 @@
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background:#424551;
+}
+
+.bg-img{
+    background-image: url(./Uzair.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    back
+}
+
+.header{
+    width:80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header .logo a{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 1%;
+    left:8%;
+}
+
+.header .logo a span{
+    color: #ff9301;
+    font-size: 50px;
+    align-items: baseline;
+}
+
+.menubar .menu li{
+    position: relative;
+    top: 10px;
+    left: -250px;
+}
+
+.menu{
+    word-spacing: 15px;
+}
+
+.menubar .menu li a{
+    font-size: 18px; 
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.menubar .menu li a:hover{
+    color: #ff9301;
+}
+
+.active{
+    color: #ff9301;
+}
+
+.Banner{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 150px;
+    color: #fff;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3 span{
+    color: #ff9301;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+    margin: -20px ;
+}
+
+.app-text H6{
+    font-size: 15px;
+    font-weight: 900;
+    margin:0 0 20px ;
+}
+
+.app-text p{
+    width: 500px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.cv-btn{
+    position: absolute;
+    margin-top: 33%;
+    margin-left: -2%;
+}
+
+.cv-btn a{
+    background: #ff9301;
+    font-size: 10px;
+    border: 1px solid #ff9301;
+    padding: 13px 13px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+.cv-btn a:hover{
+    background: transparent;
+    border: 2px solid #ff9301;    
+} 
+
+.quick-links{
+    position: absolute;
+    top:65%;
+    right: 23%;
+    bottom: 25%;
+    color: #ff9301;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.quick-links ul{
+    text-align: center;
+    letter-spacing: 12px;
+    margin-left: 35px;
+    margin-right: 60px;
+}
+
+.Banner{
+    margin-left: -40px;
+}
+
+.h1{
+    font-size: 50px;
+}
+.heading{
+    color:#fff;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    }
+
+.Developer{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.p1{
+    color: #ff9301;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.new{
+    width: 100%;
+    height: 100vh;
+    background-color:#181a20;
+}
+
+
+.icons{
+    position: absolute;
+    top: 4%;
+    right: 8%;
+    letter-spacing: 10px;
+    color: #fff;
+}
+
+.parent{
+    width: 70%;
+    height: 10%;
+    background-color: #23232c;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 97%;
+    left: 15%;
+}
+.img{
+    size: 1px;
+}
+
+.child{
+    margin-top: 1%;
+    color: #fff;
+    background-color: #181a20;
+    height: 40%;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-bottom:1%;
+    padding-right: 4%;
+}
+
+
+.next{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    top: 110%;
+    left: 7%;
+    letter-spacing: 2px;
+}
+
+.para{
+    color: #fff;
+    position: absolute;
+    top: 130%;
+    left: 7%;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+
+.project{
+    color: #ff9301;
+    position: absolute;
+    top: 150%;
+    left: 7%;
+    line-height: 6px;
+}
+
+.block{
+    color: #fff;
+}
+
+.network{
+    color: #ff9301;
+    position: absolute;
+    top: 150%;
+    left: 20%;
+    line-height: 6px;
+}
+
+.remote{
+    color: #ff9301;
+    position: absolute;
+    top: 160%;
+    left: 7%;
+    line-height: 6px;
+}
+
+.Experience{
+    color: #ff9301;
+    position: absolute;
+    top: 160%;
+    left: 20%;
+    line-height: 6px;
+}
+
+.size{
+    font-size: 20px;
+}
+
+.app{
+    margin-top: -30%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: none;
+}
+
+.card {
+    margin-top: -20%;
+    margin-left: 50%;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color:none;
+  }
+  
+  .card div:first-child {
+    flex-basis: 10%;
+  }
+  
+  .card div:last-child {
+    flex-basis: 65%;
+    padding: 0 0.5rem 0.25rem;
+  }
+  
+  .card img {
+    display: block;
+    width: 150%;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .card p {
+    margin-left: 20%;
+    margin-bottom: 0.35rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .shadow {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid white;
+  }
+  
+  .border {
+    border: 1px solid d;
+    border-bottom: 1px solid white;
+  }
+  
+  .curve {
+    border-radius: 0.35rem;
+    border-bottom: 1px solid white;
+  }
+  
